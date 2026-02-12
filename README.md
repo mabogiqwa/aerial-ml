@@ -7,7 +7,7 @@
 ## Overview
 This project is an aerial imagery aircraft, harbour, ship, and vehicle detection system built for the **inaugural UNISA Hackathon**. The solution uses a **YOLOv8** object detection model trained on the **DOTA v1.0** dataset to detect planes, harbour, ship and vehicles in aerial images. The application is deployed using **Hugging Face Spaces** as the backend and presented via a simple web interface.
 
-Hackathon reference: UNISA hosts first-ever Hackathon to ignite student learning experience.
+Hackathon reference: <https://www.unisa.ac.za/sites/myunisa/default/News/Articles/Unisa-hosts-first%E2%80%93ever-Hackathon-to-ignite-student-learning-experience>
 
 ## Demo
 The web UI embeds the deployed Hugging Face Space and allows users to upload aerial imagery for inference.
@@ -35,14 +35,11 @@ The model was initially trained in Google Colab using TPUs for faster experiment
   3. YOLOv8 performs object detection.
   4. The annotated result is returned to the user along with the amount of each object class is detected in the image.
 
-## Repository Structure (example)
-```
-.
-├── index.html        # Frontend UI embedding the Hugging Face Space
-├── (training)        # Notebooks / scripts used for training (if included)
-├── (inference)       # Inference or app code for Hugging Face Spaces
-└── README.md
-```
+## Example of Prediction
+![Annotating planes in image](./assets/prediction.png)
+
+## Model performance
+![F1 score](./model-results/f1_score_evaluation.png)
 
 ## How to Run Locally (Frontend)
 1. Clone the repository.
@@ -59,17 +56,6 @@ To reproduce training:
 - Set the train/val splits similar to:
   - Train: 1,302 images
   - Val: 109 files
-
-## Use Cases
-- Monitoring airfields from aerial or satellite imagery
-- Dataset exploration and benchmarking on aerial object detection
-- Educational demonstration of end-to-end ML deployment (training → serving → web UI)
-
-## Acknowledgements
-- **UNISA Hackathon** for hosting the event and providing the platform for this project.
-- **DOTA Dataset** creators for the aerial imagery dataset.
-- **Ultralytics YOLOv8** for the detection framework.
-- **Hugging Face Spaces** for model hosting and deployment.
 
 ## MIT License
 
