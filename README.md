@@ -41,14 +41,7 @@ The model was initially trained in Google Colab using TPUs for faster experiment
 ## Model performance
 ![F1 score](./model-results/f1_score_evaluation.png)
 
-## How to Run Locally (Frontend)
-1. Clone the repository.
-2. Open `index.html` in your browser.
-3. The page will load the Hugging Face Space in an iframe for live inference.
-
-> Note: The model itself is served via Hugging Face Spaces, so no local GPU/TPU setup is required just to use the demo UI.
-
-## Reproducibility (Training)
+## Training
 To reproduce training:
 - Prepare the **DOTA v1.0** dataset in YOLO format.
 - Use **YOLOv8** training scripts/notebooks in Google Colab.
