@@ -9,9 +9,6 @@ This project is an aerial imagery aircraft, harbour, ship, and vehicle detection
 
 Hackathon reference: <https://www.unisa.ac.za/sites/myunisa/default/News/Articles/Unisa-hosts-first%E2%80%93ever-Hackathon-to-ignite-student-learning-experience>
 
-## Demo
-The web UI embeds the deployed Hugging Face Space and allows users to upload aerial imagery for inference.
-
 ## Website
 Live demo: [https://mabogiqwa.github.io/Aerial-ML/](https://mabogiqwa.github.io/Aerial-ML/)
 
