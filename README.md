@@ -10,7 +10,7 @@ This project is an aerial imagery aircraft, harbour, ship, and vehicle detection
 Hackathon reference: <https://www.unisa.ac.za/sites/myunisa/default/News/Articles/Unisa-hosts-first%E2%80%93ever-Hackathon-to-ignite-student-learning-experience>
 
 ## Website
-Live demo: [https://mabogiqwa.github.io/Aerial-ML/](https://mabogiqwa.github.io/Aerial-ML/)
+Live demo: [https://mabogiqwa.github.io/aerial-ml/](https://mabogiqwa.github.io/aerial-ml/)
 
 ## Model & Training
 - **Architecture:** YOLOv8
