@@ -1,8 +1,8 @@
 # Aerial Plane-Ship-Harbour-Vehicle Detector (YOLOv8)
 
 **Team:** Kernel Ninjas  
-**Team Lead:** Mabo Giqwa  
-**Teammates:** Dr San Sahasra, Siphelele Ndlovu, Sello Serutle, Fortune Mkhwebane
+**Team Lead:** Mabo Giqwa
+**Team mates:** Dr Sun, Siphelele, Sello, Fortune
 
 ## Overview
 This project is an aerial imagery aircraft, harbour, ship, and vehicle detection system built for the **inaugural UNISA Hackathon**. The solution uses a **YOLOv8** object detection model trained on the **DOTA v1.0** dataset to detect planes, harbour, ship and vehicles in aerial images. The application is deployed using **Hugging Face Spaces** as the backend and presented via a simple web interface.
