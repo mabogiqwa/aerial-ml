@@ -1,7 +1,7 @@
 # Aerial Plane-Ship-Harbour-Vehicle Detector (YOLOv8)
 
 **Team:** Kernel Ninjas  
-**Team Lead:** Mabo Giqwa
+**Team Lead:** Mabo Giqwa  
 **Team mates:** Dr Sun, Siphelele, Sello, Fortune
 
 ## Overview
