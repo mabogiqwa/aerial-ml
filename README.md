@@ -2,7 +2,7 @@
 
 **Team:** Kernel Ninjas  
 **Team Lead:** Mabo Giqwa  
-**Team mates:**
+**Team mates:**  
 Dr Sun    
 Siphelele  
 Sello  
