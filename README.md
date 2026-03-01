@@ -62,6 +62,9 @@ To reproduce training:
   - Train: 1,302 images
   - Val: 109 files
 
+## Potential Enhancements
+- Retrain the model to recognize storage tanks, bridges, and helipads
+
 ## MIT License
 
 Copyright (c) 2025 mabogiqwa
