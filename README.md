@@ -2,11 +2,7 @@
 
 **Team:** Kernel Ninjas  
 **Team Lead:** Mabo Giqwa  
-**Team mates:**  
-Dr Sun    
-Siphelele  
-Sello  
-Fortune  
+**Teammates:** Dr San Sahasra, Siphelele Ndlovu, Sello Serutle, Fortune Mkhwebane
 
 ## Overview
 This project is an aerial imagery aircraft, harbour, ship, and vehicle detection system built for the **inaugural UNISA Hackathon**. The solution uses a **YOLOv8** object detection model trained on the **DOTA v1.0** dataset to detect planes, harbour, ship and vehicles in aerial images. The application is deployed using **Hugging Face Spaces** as the backend and presented via a simple web interface.
@@ -62,9 +58,6 @@ To reproduce training:
   - Train: 1,302 images
   - Val: 109 files
 
-## Potential Enhancements
-- Retrain the model to recognize storage tanks, bridges, and helipads
-
 ## MIT License
 
 Copyright (c) 2025 mabogiqwa
@@ -86,4 +79,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
